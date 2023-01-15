@@ -1,0 +1,231 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans&display=swap');
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+/* common practice class  */
+
+
+/* header style  */
+.header{
+    background: rgba(255, 144, 14, 0.1);
+}
+nav{
+    display: flex;
+    
+    justify-content: space-around;
+    
+    
+
+}
+.nav-title{
+    font-weight: 700;
+    font-size: 45px;
+    color:#131313;
+    margin-top: 50px;
+    
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 61px;
+}
+nav li{
+    list-style: none;
+    margin-left: 40px ;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 45px;
+}
+.banner-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 862px;
+    text-align: center;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 64px;
+    margin-top: 102px;
+    margin-bottom: 20px;
+    
+}
+para-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 33px;
+}
+.btn-primary{
+    width: 180px;
+    height: 64px;
+    color: #FFFFFF;
+    border: 0;
+    background: #FF900E; 
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 21px 24px 20px 25px;
+    margin-bottom: 50px;  
+}
+
+/* Quick list style  */
+.quick-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 85px 301px 130px 301px;
+    gap: 50px;
+    align-items: center;
+    margin: 130px 301px;
+    
+    
+}
+.team{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.quick-list-title{
+    font-weight: 500;
+    font-size: 45px;
+}
+
+
+/* feature styles  */
+
+.feature-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 130px 240px;
+    gap: 146px;
+
+    
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    
+}
+.feature{
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px 42px 30px 30px;
+}
+.feature-heading-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.feature-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+.btn-exp{
+    width: 342px;
+    height: 200px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0;
+    position: relative;
+    left: -92px;
+    bottom: 77px;
+   
+   
+}
+
+/* Facts  */
+
+.facts{
+    display: flex;
+    flex-direction: column;
+    
+}
+.facts-heading{
+    margin-left: 240px;
+    width: 542px;
+    
+}
+.facts-item{
+    display: flex;
+    margin-left: 290px;
+    margin-right: 290px;
+    justify-content: space-between;
+    gap: 124px;
+}
+.facts-head-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.fact{
+    margin-top: 100px;
+    margin-bottom: 130px;
+    text-align: center;
+    padding-top: 35px;
+    line-height: 5px;
+    box-sizing: border-box;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 241px;
+    height: 241px;
+}
+.count{
+    font-weight: 600;
+    font-size: 45px;
+    columns: #424242;
+}
+.fact-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;    
+}
+
+/* sponsors style  */
+
+.sponsors{
+    display: flex;
+    flex-direction: column;
+    margin-left: 240px;
+    margin-right: 240px;
+    align-items: center;
+}
+.sponsor-heading{
+    text-align: center;
+    width: 542px;
+    height: 129px;
+}
+.sponsors-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 150px;
+}
+
+/* footer style  */
+.footer{
+    font-weight: 400;
+    font-size: 20px;
+    color: #727272;
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    margin: 130px 240px 216px 240px;
+    padding: 38px 400px;
+}
