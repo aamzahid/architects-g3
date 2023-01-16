@@ -130,6 +130,7 @@ para-description{
     font-weight: 700;
     font-size: 45px;
     color: #131313;
+    border-left: 3px solid orange;
 }
 
 .feature-title{
